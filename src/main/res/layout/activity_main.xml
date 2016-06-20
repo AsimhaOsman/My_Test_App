@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#DCDCDC"
+    android:layout_margin="2dp"
+    tools:context="com.asim.nolimt.mytestapp.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:drawableTop="@drawable/home"
+        android:id="@+id/btn1"
+        android:width="180dp"
+        android:height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#727272"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form"
+        android:drawableTop="@drawable/forms"
+        android:id="@+id/btn2"
+        android:width="180dp"
+        android:height="150dp"
+        android:background="#929292"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_toRightOf="@+id/btn1"
+        android:layout_toEndOf="@+id/btn1"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:drawableTop="@drawable/camera"
+        android:id="@+id/btn3"
+        android:width="180dp"
+        android:height="150dp"
+        android:background="#929292"
+        android:layout_below="@+id/btn1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_alignRight="@+id/btn5"
+        android:layout_alignEnd="@+id/btn5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio Player"
+        android:drawableTop="@drawable/musik"
+        android:id="@+id/btn4"
+        android:width="180dp"
+        android:height="150dp"
+        android:background="#727272"
+        android:layout_below="@+id/btn2"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_alignStart="@+id/btn2"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:id="@+id/btn5"
+        android:drawableTop="@drawable/user"
+        android:width="180dp"
+        android:height="150dp"
+        android:background="#727272"
+        android:layout_below="@+id/btn3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQLite Activity"
+        android:drawableTop="@drawable/sql"
+        android:textColor="#ffffff"
+        android:id="@+id/btn6"
+        android:width="180dp"
+        android:height="150dp"
+        android:background="#929292"
+        android:layout_below="@+id/btn3"
+        android:layout_toRightOf="@+id/btn3" />
+
+
+
+
+</RelativeLayout>
