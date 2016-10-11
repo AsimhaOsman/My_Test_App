@@ -1,0 +1,1439 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+	margin:0;
+	padding:0;
+}
+
+body {	
+	  font-family:Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	  font-size:16px;
+	  background-color:#3A3636;
+}
+
+h1 {
+	font-size:44px;
+	height:170px;
+	padding-left:50px;	
+	line-height:180px;
+	background-position:0px -10px;
+	background-image:url(bilder/b2.png);
+	color:#6A5F41;
+}
+
+h2 {
+	/*background-color:#208015;*/
+}
+
+h3 {	
+	margin-bottom:10px;
+	/*text-decoration:none;*/
+	/*background-color:#FFFFFF;*/
+}
+
+p {
+	margin-bottom:20px;
+	/*font-size:16px;*/
+}
+
+dt {
+	margin-left:10px;
+	font-weight:bold;
+	font-size:16px;	
+	text-transform:uppercase;
+	color:#0F2231;
+}
+
+dd {
+  padding:10px;
+  color: #000000;
+	
+}
+
+img.bild {
+	width:auto;
+}
+
+.blau {
+	font-weight:bold;
+	font-size:24px;
+	text-decoration:underline;
+	text-align:center;
+	color:#2499DB;
+}
+
+.rot {
+	font-weight:bold;
+	text-align:center;
+	font-size:24px;
+	text-decoration:underline;
+	color:#BD5A5B;
+}
+
+.gruen {
+	font-weight:bold;
+	font-size:24px;
+	text-decoration:underline;
+	text-align:center;
+	color:#48AA62;
+}
+
+/*.support {
+	font-size:16px;	
+	text-transform:uppercase;
+	color:#0F2231;
+}
+*/
+div#container {
+	margin:20px auto;
+	width:950px;
+/*	background-color:#224868;*/
+}
+
+div#container.start {
+	background-color:#A6907B;
+}
+
+div#grosscontent {
+	margin-bottom:90px;
+	/*z-index:1;*/
+	/*background-color:#FF070B;*/
+}
+
+div#grosscontent div {
+	width:250px;
+	padding-top:330px;
+	-moz-box-shadow: 0px 0px 5px #000000;
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+	background-repeat:no-repeat;
+}
+
+div#grosscontent div h2 {
+	font-size:30px;
+	text-align:center;
+}
+
+div#grosscontent div p {
+	margin-left:20px;
+	margin-right:20px;
+	text-align:center;
+}
+
+div#content {
+	float:left;
+	margin:0px 0px 20px 60px;
+	/*border-bottom:100px solid #A6F8A8;*/
+	background-image:url(bilder/r3.jpg);
+	background-color:#A6F8A8;
+}
+
+div#content1 {
+	float:right;
+	margin:0px 60px 20px 0px;
+	/*border-bottom:200px solid #F0BCBD;*/
+	background-image:url(bilder/r2.jpg);
+	background-color:#F0BCBD;
+}
+
+div#content2 {
+	/*padding-bottom:1px;*/
+	margin:20px 0px 20px 350px;
+	border-bottom:2px solid #83C7E8;
+	background-image:url(bilder/r1.jpg);
+	background-color:#83C7E8;
+}
+/*---------------------------------------------------------------
+----------------footer---------------------------------------
+---------------------------------------------------------------*/
+div#behealter div {	
+	width:290px;
+	height:200px;
+	/*background-color:#DBD7D7;*/
+}
+
+div#behealter dd {
+	padding:0px;
+	margin:0px;
+	font-size:18px;
+	color:#180D09;
+}
+
+div#b1 {
+	margin:20px 0px 20px 350px;
+	/*background-color:#116B5C;*/
+}
+
+div#b2 {
+	float:right;
+	margin:0px 60px 20px 0px;
+	/*background-color:#7A460C;*/
+}
+
+div#b3 {
+	float:left;
+	margin:0px 0px 20px 60px;	
+	/*background-color:#780608;*/
+}
+
+/*-----------------------------------------------------
+------------------navibar----------------------------
+-----------------------------------------------------*/
+ul#barnavi {
+	width:auto;
+	height:33px;
+	background-color:#070707;
+    /*background-color:#3D0203;*/
+}
+
+ul#barnavi li {
+	float: left;
+	width:110px;  
+	list-style: none; 
+    /*background-color:#FDFDFD;*/
+}
+
+ul#barnavi li a {
+	display:block;
+    padding: 9px 15px 0;
+    text-decoration: none;
+    font-weight: normal;
+    color: #A79787;
+	/*background-color:#092A66;*/
+}
+
+ul#barnavi li a:hover {
+	color: #fff;
+	border-bottom: 2px solid #7ab900;
+}
+
+/*-----------------------------------------------------
+----------------Bildgalerie----------------------------
+-------------------------------------------------------*/
+
+#bildbox {
+	/*background-color:#E5DD0B;*/
+}
+
+/*------------------------------------------------------
+---------------------navi1----------------------------
+------------------------------------------------------*/
+ul#navi1  {
+  	height:52px;
+  	background: #ffffff;
+}
+
+ul#navi1 li {
+	position:relative;   /*Bezugspunkt der subnavi festlegen: entspringt immer genau am Listenpunkt*/
+	float: left;
+	width:130px;
+	height:52px;	
+	list-style: none;
+	margin-right:5px;
+	/*background-color:#2F3FED;*/
+}
+
+ul#navi1 li a {
+	display:block;
+	padding:15px;
+	margin-left:2px;
+	font-size: 19px;
+	text-decoration: none;
+	text-align:center;
+	color: #000000;
+	-webkit-transition: color .2s ease;
+	-moz-transition: color .2s ease;
+	-ms-transition: color .2s ease;
+	-o-transition: color .2s ease;
+	transition: color .2s ease;
+  /*background-color:#BB831A;*/
+}
+
+ul#navi1 li a.pfeil {
+	background-position:99px 21px; /*(x,y)*/
+	background-image:url(bilder/pfeile1.png);
+	background-repeat:no-repeat;
+	/*background-color:#C42D2F;*/
+}
+
+ul#navi1 li a.face {
+	 text-align:center;
+	text-indent:-9999px;
+	background-image:url(bilder/Facebook1.png);
+	background-repeat:no-repeat;
+	background-position:70px 3px;
+}
+
+ul#navi1 li a:hover.face {
+	background-image:url(bilder/Facebook0.png);
+	background-repeat:no-repeat;
+	background-position:70px 3px;
+}
+
+ul#navi1 li a.twitt {
+	text-align:center;
+	text-indent:-99999px;
+	background-image:url(bilder/twitter.png);
+	background-repeat:no-repeat;
+	background-position:35px 3px;
+}
+
+ul#navi1 li a:hover.twitt {
+	background-image:url(bilder/twitter1.png);
+	background-repeat:no-repeat;
+	background-position:35px 3px;
+}
+
+ul#navi1 li a.googl {
+	text-align:center;
+	text-indent:-99999px;
+	background-image:url(bilder/google-plus-icon.png);
+	background-repeat:no-repeat;
+	background-position:7px 3px;
+}
+
+ul#navi1 li a:hover.googl {
+	background-image:url(bilder/google-plus-icon1.png);
+	background-repeat:no-repeat;
+	background-position:7px 3px;
+}
+
+ul#navi1 li a:hover {
+	color: #009ae1;
+/*	border-top:2px solid #4481DD;
+	border-color: #009ae1;*/
+}
+
+ul#navi1 ul#navi21  {
+	position:absolute;
+	top:52px;   /*Subnavi steht genau unter dem Listenpunkt*/
+	left:0px;
+	display:none;
+	z-index:200;
+	/*background-color:#D81417;*/
+}
+
+ul#navi1 ul#navi21 li {
+	display:block;
+	width:140px;
+	height:40px;
+	/*border:1px solid #000000;*/
+	background-color:#D9D9D9;
+}
+
+/*ul#navi1 li ul#navi21 {
+	display:none;
+	background-color:#E70C10;
+}*/
+
+ul#navi1 li:hover ul#navi21 {
+	display:block;
+	/*background-color:#083398;*/
+}
+
+ul#navi21 li a {
+	display:block;
+	text-align:center;
+	/*background-color:#F72327;*/
+	color:#000000;
+}
+
+ul#navi21 li a:hover {
+	color:#E35A5D;
+}
+
+/*ul#navi21 li a.pfeil1 {
+	background-position:110px 17px; (x,y)
+	background-image:url(bilder/pfeile2.png);
+	background-repeat:no-repeat;
+	background-color:#C42D2F;
+}
+*/
+
+ul#navi21 ul.sub  {
+	display:none;	
+}
+
+ul#navi21 li:hover ul.sub {
+	display:block;
+	position:absolute;
+	top:0px;
+	left:130px;
+	text-align:center;
+	/*background-color:#4B4B56;*/
+}
+
+ul#navi21 ul.sub li {
+	text-align:center;
+	/*background-color:#FF0004;*/
+	color:#7E450C;
+}
+
+ul#navi21 ul.sub li a {
+	display:block;
+	width:110px;
+ /*	background-color:#3F3C3C;*/
+}
+
+ul#navi21 ul.sub li a:hover {
+	color:#E35A5D;
+}
+
+ul#navi21 ul.sub1 {
+	display:none;
+	/*background-color:#3EC4E0;*/	
+}
+
+ul#navi21 li:hover ul.sub1 {
+	display:block;
+	position:absolute;
+	top:0px;
+	left:130px;
+	/*background-color:#4B4B56;*/	
+}
+
+ul#navi21 ul.sub1 li a {
+	display:block;
+	width:110px;
+	/*background-color:#3F3C3C;*/
+}
+
+ul#navi21 ul.sub1 li a:hover {
+	color:#E35A5D;
+}
+/*---------------------------------------------
+---------------------navi3---------------------
+----------------------------------------------*/
+ul.navi3  {
+  height:52px;
+  width: auto;
+  margin-bottom:50px;
+  background: #ffffff;
+}
+
+ul.navi3 li {
+	position:relative; 
+	float: left;
+	width:235px;
+	height:52px;	
+	list-style: none;
+	margin-right:1px;
+	margin-left:1px;
+	/*background-color:#C1C3CF;*/
+}
+
+/*ul.navi1 li.active {
+	border-bottom:1px solid #119CE9;
+  color: #009ae1;
+}*/
+
+ul.navi3 li a {
+   display:block;
+   padding: 19px;
+  font-size: 22px;
+  text-decoration: none;
+   text-align:right;
+  color: #000000;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+	text-decoration:none;
+	/*background-color:#BB831A;*/
+}
+
+ul.navi3 li a.plan {
+	background-image:url(bilder/airplane.png);
+	background-repeat:no-repeat;
+	background-position:35px 3px;
+}
+
+ul.navi3 li a:hover.plan {
+	background-image:url(bilder/airplane1.png);
+	background-repeat:no-repeat;
+}
+
+ul.navi3 li a.hotle {
+	background-image:url(bilder/hotel1.png);
+	background-repeat:no-repeat;
+	background-position:35px 3px;
+}
+
+ul.navi3 li a:hover.hotle {
+	background-image:url(bilder/hotel.png);
+	background-repeat:no-repeat;
+}
+
+ul.navi3 li a.tour {
+	background-image:url(bilder/suitcase_travel1.png);
+	background-repeat:no-repeat;
+	background-position:35px 3px;
+}
+
+ul.navi3 li a:hover.tour {
+	background-image:url(bilder/suitcase_travel.png);
+	background-repeat:no-repeat;
+}
+
+ul.navi3 li a.tips {
+	background-image:url(bilder/user.png);
+	background-repeat:no-repeat;
+	background-position:35px 3px;
+}
+
+ul.navi3 li a:hover.tips {
+	background-image:url(bilder/user1.png);
+	background-repeat:no-repeat;
+}
+
+ul.navi3 li a:hover {
+	color: #009ae1;
+/*	border-top:2px solid #4481DD;
+	border-color: #009ae1;*/
+}
+
+ul.navi3 ul#navi22  {
+	display:none;
+}
+
+ul.navi3 ul#navi22 li {
+	display:block;
+	/*background-color:#5B1819;*/
+}
+
+ul.navi3 li:hover ul#navi22 {
+	display:block;
+	width:0px;
+	position:absolute;
+	top:55px;
+	left:0px;
+	z-index:100;
+	background-color:#3D1010;
+}
+
+ul#navi22 li a {
+	width:120px;
+	text-align:center;
+	/*background-color:#3F3C3C;*/
+	background-color:#D9D9D9;
+	color:#050505;
+}
+
+ul#navi22 li a:hover {
+	color:#E35A5D;
+}
+
+ul#navi22 li a.pfeil1 {
+	background-position:140px 24px; /*(x,y)*/
+	background-image:url(bilder/pfeile2.png);
+	background-repeat:no-repeat;
+	/*background-color:#C42D2F;*/
+}
+
+ul#navi22 ul.sub  {
+	display:none;	
+}
+
+ul#navi22 ul.sub li {
+	/*background-color:#3F3C3C;*/
+	color:#7E450C;
+}
+
+ul#navi22 li:hover ul.sub {
+    display:block;
+	position:absolute;
+	top:0px;
+	left:155px;
+	text-align:center;
+	/*background-color:#D9D9D9;*/	
+}
+
+ul#navi22 ul.sub li a {
+	/*width:60px;*/
+	background-color:#D9D9D9;
+}
+
+ul#navi22 ul.sub1  {
+	display:none;	
+}
+
+ul#navi22 ul.sub1 li {
+	/*background-color:#097C21;*/
+}
+
+ul#navi22 li:hover ul.sub1 {
+	display:block;
+	position:absolute;
+	z-index:100;
+	top:0px;
+	left:155px;
+	/*background-color:#7B2224;	*/
+}
+
+ul#navi22 ul.sub1 li a {
+	/*width:60px;*/
+	background-color:#D9D9D9;
+}
+
+/*--------------------------------------------------
+---------------navifooter-------------------------
+--------------------------------------------------*/
+ul.footer {
+	list-style:none;	
+}
+
+.footer1 {
+	margin-bottom:10px;
+}
+
+/*img {
+	width:100%;
+}*/
+
+.text1 {
+	text-align:center;
+	margin-left:50px;
+	font-family:Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-size:60px;
+	color:#A09B9B;
+}
+
+.text2 {
+	text-align:left;
+	margin-left:30px;
+	font-family:Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-size:15px;
+	color:#FFFFFF;
+}
+
+.tcentr {
+	text-align:center;
+}
+
+/*----------------------------------------------
+--------------------Kontakt---------------------
+---------------------------------------------*/
+
+.b4 {
+	/*float:left;*/
+	width:290px;
+	/*height:130px;*/
+	margin:0px 0px 0px 20px;	
+	/*background-color:#780608;*/
+}
+
+.b5 {
+	width:350px;
+	height:130px;
+	margin:0px 0px 5px 20px;	
+	/*background-color:#780608;*/
+}
+
+iframe {
+	/*margin-left:550px;*/
+	width:948px;
+	height:550px;
+	margin-bottom:30px;
+	border:1px solid #0B19B1;
+}
+
+.textkontakt {
+	font-size:20px;
+	color:#390607;
+}
+
+/*---------------------------------------------
+--------------Formular-----------------------
+---------------------------------------------*/
+div#formulare1 {
+	width:900px;
+	height:300px;
+	padding:20px;
+	/*border:3px solid #FFFFFF;*/
+	/*background-color:#B34345;*/
+}
+
+div#one {
+	float:left;
+	width:380px;
+	height:270px;
+	padding:5px;
+	margin-left:20px;
+	/*background-color:#BFA32D;*/
+}
+
+div#two {
+	float:right;
+	padding:5px;
+	width:380px;
+	height:270px;
+	/*margin-right:0px;*/
+	/*background-color:#BFA32D;*/
+}
+
+.right2 {
+	float:left;
+	width:150px;
+	text-align:left;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+.right {
+	float:left;
+	width:110px;
+	margin-bottom:30px;
+	text-align:left;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+p.von {
+	clear:both;
+	width:230px;
+	margin-right:10px;
+	/*margin-bottom:10px;*/
+	text-align:left;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+p.person {
+	text-align:left;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+p.kinder {
+	float:right;
+	margin-bottom:10px;
+	margin-right:150px;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+input.senden {
+	width:70px;
+	height:30px;
+	padding:3px;
+	font-weight:bold;
+	text-align:center;
+	color:#022C77;
+	border:2px solid #FFFFFF;
+	background-color:#1394CB;
+}
+
+input.senden:hover {
+	color:#FFFFFF;
+	background-color:#0C38B0;
+}
+
+/*---------------------------------------------
+--------------Reise_Formular-----------------------
+---------------------------------------------*/
+div#reise {
+	margin-bottom:20px;
+	font-size:22px;
+	color:#B9B7B7;
+	/*background-color:#E8EFFC;*/
+}
+
+div#reise legend {
+	margin-left:40px;
+}
+
+div#reise p {
+	font-size:20px;
+	text-align:left;
+	color:#B9B7B7;
+}
+
+div#reise p select {
+	float:right;
+	width:262px;
+	padding:5px;
+	margin-right:350px;	
+}
+
+div#reise p input {
+	float:right;
+	width:250px;
+	padding:5px;
+	/*margin:20px;*/
+	margin-right:350px;
+	/*color:#FFFFFF;*/
+	/*background-color:#2817B8;*/
+}
+
+div#reise p textarea {
+	float:right;
+	width:250px;
+	padding:5px;
+	margin-right:350px;
+	font-family:Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+}
+
+div#reise fieldset {
+	padding:15px;
+	margin-bottom:15px;
+}
+
+.test {
+	height:50px;
+	margin-bottom:35px;
+}
+
+div#reise p label checkbox {
+	margin-left:90px;		
+}
+
+div#reise p.wegdamit {
+	text-align:center;
+}
+
+div#reise p input.zentriert {
+	float:none;
+	width:150px;
+	padding:5px;
+	margin-right:0px;
+	background-color:#1866ED;
+}
+
+div#reise p input:hover.zentriert {
+	background-color:#56BFF3;;
+}
+
+/*-------------------------------------------------------
+------------------------HOTEL-------------------------
+-------------------------------------------------------*/
+div#hotel {
+	padding:50px;
+	/*height:450px;*/
+	background-color:#B79E81;
+}
+
+div#arrive {
+	position:absolute;
+	z-index:200;
+	width:280px;
+	margin:20px 0px 0px 640px;
+	/*opacity:0.3;*/	
+	/*background-color:#CD3F42;*/
+}
+
+div#arrive fieldset {	
+	height:210px;
+/*	border:3px solid #B8B8B8;*/
+	opacity:0.8;
+	font-size:18px;
+	color:#3F0708;
+	background-color:#CBB194;	
+}
+
+div#arrive fieldset legend {
+	padding-top:30px;
+}
+
+div#arrive fieldset p select {
+	float:right;
+	width:50px;
+	padding:5px;
+	margin-right:100px;	
+}
+
+.texthotel {
+	font-size:36px;
+	text-align:center;
+	color:#083F62;
+}
+
+/*----------------------------------------------------------------
+-----------------------Bliebte Hotels in Oman-------------------
+----------------------------------------------------------------*/
+
+h3 a {	
+	text-decoration:none;
+	/*background-color:#FFFFFF;*/
+}
+
+
+.auswal {
+	width:923px;
+	padding:10px;
+	border:3px solid #9C9C9C;
+	margin-bottom:20px;
+	background-color:#C9A692;
+}
+
+.auswaltext {
+	float:right;
+	/*height:280px;*/
+	width:470px;
+	margin:25px 0px 20px 0px;
+	/*background-color:#47F01E;*/
+}
+
+p.bliebtext {
+	padding:5px;
+	color:#0A61A0;	
+}
+
+a.bliebt {
+	color:#FFFFFF;	
+}
+
+p.bewertung {
+	color:#FFFFFF;
+	font-size:30px;
+}
+
+/*--------------------------------------------------------
+-----------------------Sehenswertes------------------------
+--------------------------------------------------------*/
+div#bildbox1 {
+	overflow:auto;
+	position:relative; 
+	margin:20px auto;
+	height:200px;
+	padding:20px;
+	/*background-color:#E5DD0B;*/
+}
+
+ul.galerie {
+	height:160px;
+	margin-bottom:40px;
+	list-style:none;
+	/*background-color:#FF0004;*/
+}
+
+ul.galerie li {
+	float:left;
+	height:100px;
+	margin:10px;
+	/*border:5px solid  #000000;*/
+	/*background-color:#6BFC80;*/
+}
+
+ul.galerie li a {
+	display:block;
+	height:90px;
+	text-decoration:none;
+	color:#000000;
+	/*background-color:#FFE500;*/
+}
+
+ul.galerie li a:hover {
+	background-color:#F8F9C7;
+}
+
+ul.galerie li a span {
+	display:block;   
+	height:0px;
+	text-indent:-9999px;
+}
+
+ul.textraus li a {
+	text-indent:-9999px;
+}
+
+/*---------------------------------------------------
+---------------------OMAN-------------------------
+--------------------------------------------------*/
+
+div#omancontent {
+	/*background-color:#B3D1FF;*/
+}
+
+div#omancontent h3 {
+	width:350px;
+	margin-left:300px;
+	font-size:36px;
+	text-align:center;
+	color:#F2DEC4;
+	/*background-color:#E72225;*/
+}
+
+div#omancontent p {
+	margin:20px;
+	font-size:18px;
+	font-weight:bold;
+	color:#ECEBEB;
+}
+
+/*------------------------------------------------------------
+-------------------Medienabfrage fuer Tablet------------------
+-------------------------------------------------------------*/
+
+@media (min-width:500px) and (max-width:1040px){
+	
+	
+/*-----------------------------------------------------------
+---------------INDEX--------------------------------------
+---------------------------------------------------------*/
+	
+	h1 {
+		background-position:-350px -10px;
+		font-size:24px;
+}
+	
+	div#container {
+	  width:550px;
+	  background-color:#5E0809;
+ }
+  
+ /*---------------------------------------------------------------
+----------------footer---------------------------------------
+---------------------------------------------------------------*/
+	div#behealter div {
+	width:190px;
+	height:150px;
+	/*background-color:#DBD7D7;*/
+}
+
+	div#b1 {
+	margin:20px 0px 10px 140px;
+	/*background-color:#116B5C;*/
+}
+
+	div#b2 {
+	margin:0px 20px 10px 0px;
+	/*background-color:#7A460C;*/
+}
+
+	div#b3 {
+	margin:0px 0px 10px 20px;	
+	/*background-color:#780608;*/
+}
+
+ 
+ 
+ 
+  /*--------------------------------------------
+  -------------navi1--------------------------
+  --------------------------------------------*/
+	ul#navi1  {
+  	height:120px;
+	width:550px;
+  	/*background:#E31417;*/
+}
+
+	ul#navi1 li {
+	  margin-bottom:2px;	
+	  /*background-color:#E1F513;*/
+}
+	
+
+	/*----------------------------------
+	-----------navi3------------------
+	----------------------------------*/
+	ul.navi3 {
+	  height:130px;
+}
+
+	ul.navi3 li {
+	height:65px;	
+	/*background-color:#E1F513;*/
+}
+
+/*--------------------------------------
+-------------grosscontent------------------
+--------------------------------------*/
+	div#grosscontent {
+	margin-bottom:90px;
+	/*z-index:1;*/
+	/*background-color:#FF070B;*/
+}
+
+	div#grosscontent div {
+	width:150px;
+	background-position:-99px 0px;
+}
+
+	div#content {
+	margin:0px 0px 20px 40px;
+	border-bottom:88px solid #A6F8A8;
+	/*background-color:#A6F8A8;*/
+}
+
+	div#content1 {
+	margin:0px 40px 20px 0px;
+	border-bottom:10px solid #F0BCBD;
+	background-image:url(bilder/r2.jpg);
+	/*background-color:#F0BCBD;*/
+}
+
+	div#content2 {
+	margin:20px 0px 20px 200px;
+	border-bottom:26px solid #83C7E8;
+	/*background-color:#83C7E8;*/
+}
+	
+/*---------------------------------------------
+--------------Formular-----------------------
+---------------------------------------------*/
+	div#formulare1 {
+	width:544px;
+	height:400px;
+	padding:0px;
+	border:3px solid #FFFFFF;
+}
+
+	div#formulare1  div{
+	float:none;
+	height:170px;
+	padding:0px;
+	padding-left:150px;
+}
+
+	div#two {
+	margin-bottom:60px;
+}
+	div#one {
+	margin-left:0px;
+}
+/*---------------------------------------------------
+---------------------OMAN-------------------------
+--------------------------------------------------*/
+
+	div#omancontent h3 {
+	margin-left:90px;
+}
+
+	iframe {
+	width:548px;
+}
+
+/*---------------------------------------------
+--------------Reise_Formular-----------------------
+---------------------------------------------*/
+	div#reise fieldset {
+	width:515px;
+}
+
+	div#reise p {
+	width:350px;
+}
+
+	div#reise p select {
+	margin-right:0px;	
+}
+
+	div#reise p input {
+	margin-right:0px;
+}
+
+	div#reise p textarea {
+	margin-right:0px;
+}
+
+/*----------------------------------------------------------------
+-----------------------Bliebte Hotels in Oman-------------------
+----------------------------------------------------------------*/
+
+	.auswal {
+	width:510px;
+	padding-left:30px;
+	border:0px solid #9C9C9C;
+}
+
+	.auswaltext {
+	float:none;
+}
+
+/*-------------------------------------------------------
+------------------------HOTEL-------------------------
+-------------------------------------------------------*/
+
+	div#arrive {
+	margin:-10px 0px 5px 0px;
+}
+
+	div#arrive fieldset {
+	width:235px;	
+	height:205px;
+	padding-left:20px;
+	border:1px solid #B8B8B8;
+	/*background-color:#CBB194;*/	
+}
+}
+
+
+
+@media (min-width:200px) and (max-width:499px){
+/*-----------------------------------------------------------
+---------------INDEX--------------------------------------
+---------------------------------------------------------*/
+	h1 {
+	font-size:16px;
+	background-position:-499px -10px;
+}
+	div#container {
+	  width:350px;
+	  /*background-color:#406A0F;*/
+  }
+  
+ /*---------------------------------------------------------------
+----------------footer---------------------------------------
+---------------------------------------------------------------*/
+	div#behealter div {
+	width:110px;
+	height:150px;
+	/*background-color:#2F267F;*/
+}
+
+	div#behealter div dd {
+	font-size:10px;
+}
+
+	div#behealter div dt {
+	font-size:12px;
+}
+
+	div#b1 {
+	margin:20px 0px 10px 120px;
+	/*background-color:#116B5C;*/
+}
+
+	div#b2 {
+	margin:0px ;
+	/*background-color:#7A460C;*/
+}
+
+	div#b3 {
+	margin:0px ;	
+	/*background-color:#780608;*/
+}
+/*--------------------------------------------
+  -------------navi1--------------------------
+  --------------------------------------------*/
+	ul#navi1  {
+  	height:265px;
+}
+
+	ul#navi1 li {  /*Bezugspunkt der subnavi festlegen: entspringt immer genau am Listenpunkt*/
+	float:none;
+	width:350px;
+	height:40px;	
+	list-style: none;
+	margin-bottom:0px;
+}
+
+	ul#navi1 li a {
+	display:block;
+	padding:0px;
+	margin-left:0px;
+	font-size: 19px;
+  /*background-color:#BB831A;*/
+}
+
+	ul#navi1 li a.face {
+	background-image:url(bilder/Facebook20.png);
+	background-position:170px 3px;
+}
+
+	ul#navi1 li a:hover.face {
+	background-image:url(bilder/Facebook_20.png);
+	background-position:170px 3px;
+}
+
+	ul#navi1 li a.twitt {
+	background-image:url(bilder/twitter20.png);
+	background-position:170px 3px;
+}
+
+	ul#navi1 li a:hover.twitt {
+	background-image:url(bilder/twitter_20.png);
+	background-position:170px 3px;
+}
+
+	ul#navi1 li a.googl {
+	background-image:url(bilder/google-plus-icon20.png);
+	background-position:170px 3px;
+}
+
+	ul#navi1 li a:hover.googl {
+	background-image:url(bilder/google-plus-icon_20.png);
+	background-position:170px 3px;
+}
+
+	ul#navi1 ul#navi21  {
+	position:absolute;
+	top:40px;   /*Subnavi steht genau unter dem Listenpunkt*/
+	left:0px;
+	display:none;
+	z-index:200;
+	/*background-color:#D81417;*/
+}
+
+/*----------------------------------
+-----------navi3------------------
+----------------------------------*/
+	ul.navi3 {
+	height:207px;
+	/*background-color:#8C2627;*/
+}
+
+	ul.navi3 li a {
+	width:312px;
+	text-align:center;
+}
+
+/*--------------------------------------
+-------------grosscontent------------------
+--------------------------------------*/
+	div#grosscontent {
+	margin-bottom:90px;
+	/*z-index:1;*/
+	background-color:#FF070B;
+}
+
+	div#grosscontent div {
+	width:115px;
+	background-position:-180px 0px;
+}
+
+	div#grosscontent div h2 {
+	font-size:14px;
+}
+
+	div#grosscontent div p {
+	font-size:12px;
+	/*background-position:-99px 0px;*/
+}
+
+	div#content {
+	margin:0px;
+	border-bottom:40px solid #A6F8A8;
+	background-color:#A6F8A8;
+}
+
+	div#content1 {
+	margin:0px;
+	border-bottom:25px solid #F0BCBD;
+	background-color:#F0BCBD;
+}
+
+	div#content2 {
+	margin:20px 0px 20px 118px;
+	border-bottom:10px solid #83C7E8;
+	background-color:#83C7E8;
+}
+	
+/*---------------------------------------------
+--------------Formular-----------------------
+---------------------------------------------*/
+	div#formulare1 {
+	width:344px;
+	height:400px;
+	padding:0px;
+	border:3px solid #FFFFFF;
+	/*background-color:#F0080C;*/
+}
+
+	div#formulare1  div{
+	float:none;
+	width:330px;
+	height:170px;
+	padding:0px;
+	padding-left:10px;
+	/*background-color:#430B0C;*/
+}
+
+	div#two {
+	margin-bottom:60px;
+}
+
+	div#one {
+	margin-left:0px;
+}
+
+/*---------------------------------------------------
+---------------------OMAN-------------------------
+--------------------------------------------------*/
+
+	div#omancontent h3 {
+	font-size:18px;
+	margin-left:0px;
+}
+
+	iframe {
+	width:348px;
+}
+
+/*---------------------------------------------
+--------------Reise_Formular-----------------------
+---------------------------------------------*/
+	div#reise fieldset {
+	width:315px;
+}
+
+	div#reise p {
+	width:250px;
+}
+
+	div#reise p input {
+	margin-right:0px;
+	background-color:#FFFFFF;
+}
+
+	div#reise p select {
+	margin-right:0px;
+	background-color:#FFFFFF;	
+}
+
+	div#reise p textarea {
+	margin-right:0px;
+	background-color:#FFFFFF;
+}
+
+/*----------------------------------------------------------------
+-----------------------Bliebte Hotels in Oman-------------------
+----------------------------------------------------------------*/
+
+	.auswal {
+	width:320px;
+	padding-left:20px;
+	border:0px solid #9C9C9C;
+}
+
+	.auswaltext {
+	float:none;
+	width:310px;
+}
+
+	img {
+	width:300px;
+}
+/*----------------------------------------------
+--------------------Kontakt---------------------
+---------------------------------------------*/
+	iframe {
+	width:348px;
+	height:350px;
+}
+
+	.textkontakt {
+	font-size:15px;
+}
+
+/*-------------------------------------------------------
+------------------------HOTEL-------------------------
+-------------------------------------------------------*/
+
+	div#arrive {
+	position:inherit;
+	margin:-10px 0px 5px 0px;
+}
+
+	div#arrive fieldset {
+	width:329px;	
+	height:220px;
+	padding-left:20px;
+	border:1px solid #B8B8B8;
+	/*background-color:#CBB194;*/	
+}
+
+
+}
